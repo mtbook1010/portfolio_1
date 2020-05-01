@@ -7,29 +7,20 @@
     <div id="side">
       <Side />
     </div>
-  <h1 class="main_t">WORKS</h1>
+  <h1 class="main_t">ym2</h1>
   <div class="main">
-    <div>
-    <nuxt-link to="./more/01"><img src="../assets/img/01.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="../assets/img/02.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="../assets/img/06.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="./more/04"><img src="../assets/img/04.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="../assets/img/07.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="../assets/img/03.webp"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="../assets/img/05.webp"></nuxt-link>
-    </div>
+    <section>
+    <img src="../../assets/img/01.webp">
+    </section>
+    <section>
+    <img src="../../assets/img/more-img/01-m-01.webp">
+    </section>
+    <section>
+    <img src="../../assets/img/more-img/01-m-02.webp">
+    </section>
+    <section>
+    <img src="../../assets/img/more-img/01-m-03.webp">
+    </section>
     </div>
   </body>
 </div>
@@ -72,24 +63,16 @@ body{
 }
 .main{
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   right: 3rem;
   width: 75vw;
-  column-count: 2;
+  column-count: 1;
   column-gap: 2rem;
 }
-.main div{
-  position: relative;
-}
-.main div img {
+.main section img {
   display: inline-block;
-  margin: 0 0 2rem;
-  width: 100%;
-  opacity: .7;
-  transition: .5s;
-}
-.main div img:hover {
-  opacity: 1;
+  margin: 0 0 2rem 15%;
+  width: 60%;
 }
 
 /*-------------------------fadeoutcss--------------------------*/
