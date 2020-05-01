@@ -79,8 +79,6 @@ body{
   position: relative;
   margin: auto;
   width: 75vw;
-  column-count: 1;
-  column-gap: 2rem;
 }
 .main div{
   position: relative;
