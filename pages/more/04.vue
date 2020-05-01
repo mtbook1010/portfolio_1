@@ -10,20 +10,20 @@
   <h1 class="main_t">SYP</h1>
   <div class="main">
     <section>
-    <img src="../../assets/img/04.webp">
+    <img src="~/assets/img/04.webp">
     <p><a href="https://fizzee.github.io/535950/" target="_blank"><span>></span> https://fizzee.github.io/535950/</a></p>
     </section>
     <section>
-    <img src="../../assets/img/more-img/04-m-00.webp">
+    <img src="~/assets/img/more-img/04-m-00.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/04-m-01.webp">
+    <img src="~/assets/img/more-img/04-m-01.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/04-m-02.webp">
+    <img src="~/assets/img/more-img/04-m-02.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/04-m-03.webp">
+    <img src="~/assets/img/more-img/04-m-03.webp">
     </section>
     </div>
   </body>

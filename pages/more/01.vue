@@ -10,16 +10,16 @@
   <h1 class="main_t">ym2</h1>
   <div class="main">
     <section>
-    <img src="../../assets/img/01.webp">
+    <img src="~/assets/img/01.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-01.webp">
+    <img src="~/assets/img/more-img/01-m-01.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-02.webp">
+    <img src="~/assets/img/more-img/01-m-02.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-03.webp">
+    <img src="~/assets/img/more-img/01-m-03.webp">
     </section>
     </div>
   </body>

@@ -10,13 +10,13 @@
   <h1 class="main_t">shifty</h1>
   <div class="main">
     <section>
-    <img src="../../assets/img/02.webp">
+    <img src="~/assets/img/02.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/02-m-02.webp">
+    <img src="~/assets/img/more-img/02-m-02.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/02-m-03.webp">
+    <img src="~/assets/img/more-img/02-m-03.webp">
     </section>
     </div>
   </body>
