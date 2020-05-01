@@ -200,7 +200,7 @@ label:hover span::after {
   height: 100%;
   background: black;
   opacity: 0;
-  transition: .3s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 /*中身*/
@@ -214,7 +214,7 @@ label:hover span::after {
   max-width: 330px;/*最大幅（調整してください）*/
   height: 100%;
   background: #fff;/*背景色*/
-  transition: .3s ease-in-out;/*滑らかに表示*/
+  transition: .5s ease-in-out;/*滑らかに表示*/
   -webkit-transform: translateX(-105%);
   transform: translateX(-105%);/*左に隠しておく*/
 }
