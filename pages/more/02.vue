@@ -37,14 +37,6 @@ body{
   background: #f8f8f8 !important;
   color: #272727;
 }
-.container {
-    overflow-y: scroll;
-    -ms-overflow-style: none;    /* IE, Edge 対応 */
-    scrollbar-width: none;       /* Firefox 対応 */
-  }
-  .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
-        display:none;
-  }
 
 @media screen and (min-width: 1024px) {
 

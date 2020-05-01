@@ -37,15 +37,6 @@ body{
   background: #f8f8f8 !important;
   color: #272727;
 }
-.container {
-    overflow-y: scroll;
-    -ms-overflow-style: none;    /* IE, Edge 対応 */
-    scrollbar-width: none;       /* Firefox 対応 */
-    color: #272727 !important;
-  }
-  .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
-        display:none;
-  }
 #side{
   position: fixed;
   z-index: 999;
