@@ -7,19 +7,23 @@
     <div id="side">
       <Side />
     </div>
-  <h1 class="main_t">ym2</h1>
+  <h1 class="main_t">SYP</h1>
   <div class="main">
     <section>
-    <img src="../../assets/img/01.webp">
+    <img src="../../assets/img/04.webp">
+    <p><a href="https://fizzee.github.io/535950/" target="_blank"><span>></span> https://fizzee.github.io/535950/</a></p>
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-01.webp">
+    <img src="../../assets/img/more-img/04-m-00.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-02.webp">
+    <img src="../../assets/img/more-img/04-m-01.webp">
     </section>
     <section>
-    <img src="../../assets/img/more-img/01-m-03.webp">
+    <img src="../../assets/img/more-img/04-m-02.webp">
+    </section>
+    <section>
+    <img src="../../assets/img/more-img/04-m-03.webp">
     </section>
     </div>
   </body>
@@ -73,6 +77,25 @@ body{
   display: inline-block;
   margin: 0 0 2rem 15%;
   width: 60%;
+}
+.main section p span{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700 !important;
+}
+.main section p{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: -1.5rem 0 2rem 15%;
+  transition: .5s;
+}
+.main section p:hover{
+  font-weight: 700;
+  font-style: normal;
+}
+.main section p a{
+  color: #272727 !important;
+  text-decoration: none;
 }
 
 /*-------------------------fadeoutcss--------------------------*/
