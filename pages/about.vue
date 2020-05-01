@@ -13,7 +13,7 @@
     <div id="profile">
       <h1>PROFILE</h1>
       <span class = "myname">山本 匠真　<span>|</span>　Shoma Yamamoto</span><br>
-      <span class = "myprofile">北海道生まれ東京育ち<br>企業やサービスなどのロゴデザイン・WEBデザインを主としてWordPressやオリジナルサイトなども制作している。</span>
+      <span class = "myprofile">北海道生まれ東京育ち<br>企業やサービスなどのロゴデザイン・WEBデザインを主としてWordPressサイト・オリジナルサイトなども制作している。</span>
       <div class="contact">
         <h2><span>></span> CONTACT</h2>
       </div>

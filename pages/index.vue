@@ -58,6 +58,45 @@ body{
         display:none;
   }
 
+@media screen and (max-width: 1023px) {
+
+#side{
+  position: fixed;
+}
+.main_t{
+  position: fixed;
+  top: 4rem;
+  right: 5vw;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #dadada;
+}
+.main{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 75vw;
+  column-count: 1;
+  column-gap: 2rem;
+}
+.main div{
+  position: relative;
+}
+.main div img {
+  display: inline-block;
+  margin: 8rem 0 -6rem 0;
+  width: 100%;
+  opacity: .7;
+  transition: .5s;
+}
+.main div img:hover {
+  opacity: 1;
+}
+
+}
+
 @media screen and (min-width: 1024px) {
 
 #side{

@@ -30,6 +30,10 @@ html{
   margin: 2rem;
   }
 
+  .side h1 , .side h2{
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 1024px) {
