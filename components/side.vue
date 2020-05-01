@@ -240,6 +240,9 @@ label:hover span::after {
    text-align: center;
    margin: 3rem 0 2rem 3vw;
  }
+#nav-drawer{
+  display: none;
+}
 .side {
   height: 100vh;
   width: 25vw;
