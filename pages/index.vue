@@ -62,6 +62,7 @@ body{
 
 #side{
   position: fixed;
+  z-index: 9999;
 }
 .main_t{
   position: fixed;

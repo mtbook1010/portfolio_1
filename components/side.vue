@@ -4,7 +4,19 @@
   <div class="flexbox">
   <section class="side">
     <img src = "../assets/img/Logo.svg" class = "logo">
-    <button><span></span></button>
+    <div id="nav-drawer">
+      <input id="nav-input" type="checkbox" class="nav-unshown">
+      <label for="nav-input"><span></span></label>
+      <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      <div id="nav-content">
+        <h1><nuxt-link to="/">WORKS</nuxt-link></h1>
+        <h1><nuxt-link to="/about">ABOUT</nuxt-link></h1>
+        <div class = "border_v"></div>
+        <a href="https://twitter.com/mt_book10" target="_blank" class="animsition-link"><h2 class="h2-t">Twitter</h2></a>
+        <a href="https://www.facebook.com/YMMT.SUM" target="_blank" class="animsition-link"><h2 class="h2-f">Facebook</h2></a>
+        <a href="https://dribbble.com/mt_book10" target="_blank" class="animsition-link"><h2 class="h2-d">Dribbble</h2></a>
+      </div>
+  </div>
     <h1><nuxt-link to="/">WORKS</nuxt-link></h1>
     <h1><nuxt-link to="/about">ABOUT</nuxt-link></h1>
     <div class = "border_v"></div>
@@ -28,18 +40,59 @@ html{
   width: 20vw;
   min-width: 150px;
   text-align: center;
-  margin: 2rem;
+  margin: 1.5rem;
   }
 
-  .side h1 , .side h2{
+  #nav-content{
+    padding-top: 3rem;
+  }
+
+  .side #nav-content h1{
+  display: block !important;
+  width: auto;
+  margin: 1rem 0 0 3rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  transition: .5s;
+  letter-spacing: 0.3rem;
+}
+.side #nav-content h1:hover{
+  width: auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.side #nav-content a{
+  text-decoration: none !important;
+  color: #272727;
+}
+.side #nav-content h2{
+  display: block !important;
+  margin: 2.5rem 0 0 3rem;
+  line-height: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.2rem;
+  transition: .5s;
+}
+.side #nav-content h2:hover{
+  width: auto;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.side h1 , .side h2{
     display: none;
   }
 
-  button {
+  label {
   display: block;
   position: fixed;
-  top: 2rem;
-  right: 2rem;
+  top: 2.5rem;
+  right: 2.5rem;
   width: 30px;
   height: 20px;
   background: none;
@@ -47,9 +100,9 @@ html{
   cursor: pointer;
   outline: none;
 }
-button span {
+label span {
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   background: #000;
   display: block;
   margin: 0;
@@ -58,10 +111,10 @@ button span {
   left: -10px;
   transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
 }
-button span::before {
+label span::before {
   content: "";
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   background: #000;
   display: block;
   position: absolute;
@@ -70,10 +123,10 @@ button span::before {
   left: 10px;
   transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
 }
-button span::after {
+label span::after {
   content: "";
   width: 100%;
-  height: 2.5px;
+  height: 2px;
   background: #000;
   display: block;
   position: absolute;
@@ -83,33 +136,33 @@ button span::after {
   transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
 }
 
-button:hover span {
+label:hover span {
   left: 5px;
   transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
 }
-button:hover span::before {
+label:hover span::before {
   left: 0;
   transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
 }
-button:hover span::after {
+label:hover span::after {
   right: 0;
   transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
 }
 
-.button-toggled span {
+.label-toggled span {
   left: 5px;
   background: transparent;
   top: 5px;
   transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
 }
-.button-toggled span::before {
+.label-toggled span::before {
   left: 0;
   transform-origin: center-left;
   transform: rotate(-45deg);
   bottom: 5px;
   transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
 }
-.button-toggled span::after {
+.label-toggled span::after {
   right: 0;
   transform-origin: center-right;
   transform: rotate(45deg);
@@ -117,16 +170,66 @@ button:hover span::after {
   transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
 }
 
-.button-toggled:hover span {
+.label-toggled:hover span {
   left: 5px;
 }
-.button-toggled:hover span::before {
+.label-toggled:hover span::before {
   left: 0;
 }
-.button-toggled:hover span::after {
+.label-toggled:hover span::after {
   left: 0;
 }
 
+#nav-drawer {
+  position: relative;
+}
+
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+  display:none;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+  display: none;/*はじめは隠しておく*/
+  position: fixed;
+  z-index: 9998;
+  top: 0;/*全体に広がるように*/
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+
+/*中身*/
+#nav-content {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;/*最前面に*/
+  width: 90%;/*右側に隙間を作る（閉じるカバーを表示）*/
+  max-width: 330px;/*最大幅（調整してください）*/
+  height: 100%;
+  background: #fff;/*背景色*/
+  transition: .3s ease-in-out;/*滑らかに表示*/
+  -webkit-transform: translateX(-105%);
+  transform: translateX(-105%);/*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+  display: block;/*カバーを表示*/
+  opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);/*中身を表示（右へスライド）*/
+  box-shadow: 6px 0 25px rgba(0,0,0,.15);
+}
 
 }
 
@@ -175,7 +278,7 @@ button:hover span::after {
   font-weight: 700;
   font-style: normal;
 }
-.side button{
+.side label{
   display: none;
 }
 .h2-t:hover{
