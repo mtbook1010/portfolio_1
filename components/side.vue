@@ -19,6 +19,21 @@
 html{
   color: #272727;
 }
+
+@media screen and (max-width: 1023px) {
+
+.logo{
+  position: fixed;
+  width: 20vw;
+  min-width: 150px;
+  text-align: center;
+  margin: 2rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
 .logo{
    width: 12vw;
    text-align: center;
@@ -76,18 +91,12 @@ html{
 }
 .border_v{
   display: block;
-  width: 0.5px;
+  width: 0.8px;
   background-color: #272727;
   height: 25vh;
   margin: 0 0 0 4vw;
 }
  
-/* Responsive */
-@media ( min-width : 600px ){
-    .flexbox {
-      display: -webkit-flex;
-      display: flex;
-    }
 }
 
 </style>

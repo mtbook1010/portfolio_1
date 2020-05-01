@@ -45,6 +45,9 @@ body{
   .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
         display:none;
   }
+
+@media screen and (min-width: 1024px) {
+
 #side{
   position: fixed;
 }
@@ -91,6 +94,7 @@ body{
   text-decoration: none;
 }
 
+}
 /*-------------------------fadeoutcss--------------------------*/
 
 body {

@@ -48,6 +48,9 @@ body{
   .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
         display:none;
   }
+
+@media screen and (min-width: 1024px) {
+
 #side{
   position: fixed;
 }
@@ -73,6 +76,8 @@ body{
   display: inline-block;
   margin: 0 0 2rem 15%;
   width: 60%;
+}
+
 }
 
 /*-------------------------fadeoutcss--------------------------*/

@@ -57,6 +57,9 @@ body{
   .container::-webkit-scrollbar {  /* Chrome, Safari 対応 */
         display:none;
   }
+
+@media screen and (min-width: 1024px) {
+
 #side{
   position: fixed;
 }
@@ -90,6 +93,8 @@ body{
 }
 .main div img:hover {
   opacity: 1;
+}
+
 }
 
 /*-------------------------fadeoutcss--------------------------*/
