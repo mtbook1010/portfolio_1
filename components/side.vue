@@ -4,6 +4,7 @@
   <div class="flexbox">
   <section class="side">
     <img src = "../assets/img/Logo.svg" class = "logo">
+    <button><span></span></button>
     <h1><nuxt-link to="/">WORKS</nuxt-link></h1>
     <h1><nuxt-link to="/about">ABOUT</nuxt-link></h1>
     <div class = "border_v"></div>
@@ -33,6 +34,99 @@ html{
   .side h1 , .side h2{
     display: none;
   }
+
+  button {
+  display: block;
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 30px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+button span {
+  width: 100%;
+  height: 2.5px;
+  background: #000;
+  display: block;
+  margin: 0;
+  border-radius: 100px;
+  position: relative;
+  left: -10px;
+  transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
+}
+button span::before {
+  content: "";
+  width: 100%;
+  height: 2.5px;
+  background: #000;
+  display: block;
+  position: absolute;
+  top: -200%;
+  border-radius: 100px;
+  left: 10px;
+  transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
+}
+button span::after {
+  content: "";
+  width: 100%;
+  height: 2.5px;
+  background: #000;
+  display: block;
+  position: absolute;
+  bottom: -200%;
+  border-radius: 100px;
+  right: -5px;
+  transition: 0.2s cubic-bezier(1, 0.3, 0, 0.3);
+}
+
+button:hover span {
+  left: 5px;
+  transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
+}
+button:hover span::before {
+  left: 0;
+  transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
+}
+button:hover span::after {
+  right: 0;
+  transition: 0.4s cubic-bezier(1, 0.3, 0, 0.3);
+}
+
+.button-toggled span {
+  left: 5px;
+  background: transparent;
+  top: 5px;
+  transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
+}
+.button-toggled span::before {
+  left: 0;
+  transform-origin: center-left;
+  transform: rotate(-45deg);
+  bottom: 5px;
+  transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
+}
+.button-toggled span::after {
+  right: 0;
+  transform-origin: center-right;
+  transform: rotate(45deg);
+  top: -5px;
+  transition: 0.3s cubic-bezier(1, 0.3, 0, 0.3) !important;
+}
+
+.button-toggled:hover span {
+  left: 5px;
+}
+.button-toggled:hover span::before {
+  left: 0;
+}
+.button-toggled:hover span::after {
+  left: 0;
+}
+
 
 }
 
@@ -80,6 +174,9 @@ html{
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
   font-style: normal;
+}
+.side button{
+  display: none;
 }
 .h2-t:hover{
   color: #1da1f2 !important;
