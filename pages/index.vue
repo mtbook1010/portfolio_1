@@ -65,6 +65,7 @@ body{
   font-weight: 700;
   font-size: 5rem;
   color: #dadada;
+  letter-spacing: 0.5rem;
 }
 .main{
   display: block;

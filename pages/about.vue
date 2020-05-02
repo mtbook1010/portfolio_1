@@ -37,6 +37,87 @@ body{
   background: #f8f8f8 !important;
   color: #272727;
 }
+
+@media screen and (max-width: 1023px) {
+
+.main_t{
+  position: fixed;
+  top: 4rem;
+  right: 5vw;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #dadada;
+  letter-spacing: 0.5rem;
+}
+.main{
+  position: absolute;
+  top: 18vw;
+  right: 3rem;
+  width: 75vw;
+  height: 50vh;
+}
+.main #profile{
+  position: absolute;
+  top: 0rem;
+  left: 10%;
+}
+.main .myname{
+  display: block;
+  width: auto;
+  margin-left: 5%;
+  font-family: 'Noto Serif JP';
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.2rem;
+}
+.main .myname span{
+  font-weight: 200;
+  color: #999999;
+}
+.main .myprofile{
+  display: block;
+  width: 60vw;
+  max-width: 380px;
+  margin-left: 5%;
+  line-height: 2;
+  font-family: 'Noto Serif JP';
+  font-weight: 200;
+  text-align: left;
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+}
+.contact{
+  display: block;
+}
+#profile h1{
+  margin: 3rem 0 1.5rem 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+.contact h2{
+  margin: 2rem 0 1.5rem 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400 !important;
+  font-style: italic;
+  letter-spacing: 0.3rem;
+  transition: .5s;
+}
+.contact h2:hover{
+  font-weight: 700 !important;
+  font-style: normal;
+}
+.contact span{
+  font-weight: 700;
+  font-style: normal;
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
 #side{
   position: fixed;
   z-index: 999;
@@ -112,6 +193,8 @@ body{
 .contact span{
   font-weight: 700;
   font-style: normal;
+}
+
 }
 
 /*-------------------------fadeoutcss--------------------------*/
