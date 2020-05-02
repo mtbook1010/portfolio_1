@@ -125,6 +125,26 @@ body{
   width: 60%;
 }
 
+.main section p span{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700 !important;
+}
+.main section p{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: -1.5rem 0 2rem 15%;
+  transition: .5s;
+}
+.main section p:hover{
+  font-weight: 700;
+  font-style: normal;
+}
+.main section p a{
+  color: #272727 !important;
+  text-decoration: none;
+}
+
 }
 
 /*-------------------------fadeoutcss--------------------------*/
