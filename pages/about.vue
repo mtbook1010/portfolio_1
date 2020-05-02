@@ -198,6 +198,10 @@ body{
   font-weight: 700;
   font-style: normal;
 }
+.contact a{
+  text-decoration: none;
+  color: #272727 !important;
+}
 
 }
 
