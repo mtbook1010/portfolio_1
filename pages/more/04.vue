@@ -67,6 +67,7 @@ body{
   position: relative;
   margin: auto;
   width: 75vw;
+  margin-bottom: 8rem;
 }
 .main section img {
   display: inline-block;

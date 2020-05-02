@@ -71,6 +71,7 @@ body{
   display: block;
   position: relative;
   margin: auto;
+  margin-bottom: 8rem;
   width: 75vw;
 }
 .main div img {

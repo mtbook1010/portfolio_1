@@ -88,6 +88,16 @@ html{
     display: none;
   }
 
+.h2-t:hover{
+  color: #1da1f2 !important;
+}
+.h2-f:hover{
+  color: #4064ac !important;
+}
+.h2-d:hover{
+  color: #ea4c89 !important;
+}
+
   label {
   display: block;
   position: fixed;
