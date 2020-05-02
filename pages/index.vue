@@ -10,25 +10,25 @@
   <h1 class="main_t">WORKS</h1>
   <div class="main">
     <div>
-    <nuxt-link to="./more/01"><img src="~/assets/img/01.webp"></nuxt-link>
+    <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="./more/02"><img src="~/assets/img/02.webp"></nuxt-link>
+    <nuxt-link to="./more/02"><img src="~/assets/img/02-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="/"><img src="~/assets/img/06.webp"></nuxt-link>
+    <nuxt-link to="/"><img src="~/assets/img/06-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="./more/04"><img src="~/assets/img/04.webp"></nuxt-link>
+    <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="./more/07"><img src="~/assets/img/07.webp"></nuxt-link>
+    <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="/"><img src="~/assets/img/03.webp"></nuxt-link>
+    <nuxt-link to="/"><img src="~/assets/img/03-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="/"><img src="~/assets/img/05.webp"></nuxt-link>
+    <nuxt-link to="/"><img src="~/assets/img/05-min.png"></nuxt-link>
     </div>
     </div>
   </body>

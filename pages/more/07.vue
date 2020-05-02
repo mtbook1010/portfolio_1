@@ -10,16 +10,16 @@
   <h1 class="main_t">fizzee</h1>
   <div class="main">
     <section>
-    <img src="~/assets/img/07.webp">
+    <img src="~/assets/img/07-min.png">
     </section>
     <section>
-    <img src="~/assets/img/more-img/07-m-01.webp">
+    <img src="~/assets/img/more-img/07-m-01-min.png">
     </section>
     <section>
-    <img src="~/assets/img/more-img/07-m-02.webp">
+    <img src="~/assets/img/more-img/07-m-02-min.png">
     </section>
     <section>
-    <img src="~/assets/img/more-img/07-m-03.webp">
+    <img src="~/assets/img/more-img/07-m-03-min.png">
     </section>
     </div>
   </body>
