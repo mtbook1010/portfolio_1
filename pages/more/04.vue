@@ -45,6 +45,59 @@ body{
   color: #272727;
 }
 
+@media screen and (max-width: 1023px) {
+
+#side{
+  position: fixed;
+  z-index: 9999;
+}
+.main_t{
+  position: fixed;
+  top: 4rem;
+  right: 5vw;
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 5rem;
+  color: #dadada;
+  letter-spacing: 0.5rem;
+}
+.main{
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 75vw;
+}
+.main section img {
+  display: inline-block;
+  margin: 8rem 0 -6rem 0;
+  width: 100%;
+  transition: .5s;
+}
+.main section p span{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700 !important;
+}
+.main section p{
+  position: absolute;
+  margin-top: 6rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9rem;
+  transition: .5s;
+}
+.main section p:hover{
+  font-weight: 700;
+  font-style: normal;
+}
+.main section p a{
+  color: #272727 !important;
+  text-decoration: none;
+}
+
+}
+
 @media screen and (min-width: 1024px) {
 
 #side{

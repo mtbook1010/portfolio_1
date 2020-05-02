@@ -73,9 +73,6 @@ body{
   margin: auto;
   width: 75vw;
 }
-.main div{
-  position: relative;
-}
 .main div img {
   display: inline-block;
   margin: 8rem 0 -6rem 0;
