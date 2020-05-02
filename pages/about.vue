@@ -15,7 +15,7 @@
       <span class = "myname">山本 匠真　<span>|</span>　Shoma Yamamoto</span><br>
       <span class = "myprofile">北海道生まれ東京育ち<br>企業やサービスなどのロゴデザイン・WEBデザインを主としてWordPressサイト・オリジナルサイトなども制作している。</span>
       <div class="contact">
-        <a href="mt_book@outlook.jp"><h2><span>></span> CONTACT</h2></a>
+        <a href="mailto:mt_book@outlook.jp"><h2><span>></span> CONTACT</h2></a>
       </div>
   </div>
   </div>
