@@ -76,10 +76,12 @@ body{
   font-weight: 700 !important;
 }
 .main section p{
+  position: absolute;
+  margin-top: 6rem;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 400;
   font-style: italic;
-  margin: -1.5rem 0 2rem 15%;
+  font-size: 0.9rem;
   transition: .5s;
 }
 .main section p:hover{

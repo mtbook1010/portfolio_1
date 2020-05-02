@@ -7,29 +7,21 @@
     <div id="side">
       <Side />
     </div>
-  <h1 class="main_t">WORKS</h1>
+  <h1 class="main_t">#ym2t</h1>
   <div class="main">
-    <div>
-    <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="./more/02"><img src="~/assets/img/02-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="~/assets/img/06-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="./more/03"><img src="~/assets/img/03-min.png"></nuxt-link>
-    </div>
-    <div>
-    <nuxt-link to="/"><img src="~/assets/img/05-min.png"></nuxt-link>
-    </div>
+    <section>
+    <img src="~/assets/img/03-min.png">
+    <p><a href="https://ym2t.netlify.app/" target="_blank"><span>></span> https://ym2t.netlify.app/</a></p>
+    </section>
+    <section>
+    <img src="~/assets/img/more-img/03-m-00-min.png">
+    </section>
+    <section>
+    <img src="~/assets/img/more-img/03-m-01-min.png">
+    </section>
+    <section>
+    <img src="~/assets/img/more-img/03-m-02-min.png">
+    </section>
     </div>
   </body>
 </div>
@@ -71,18 +63,35 @@ body{
   display: block;
   position: relative;
   margin: auto;
-  margin-bottom: 8rem;
   width: 75vw;
+  margin-bottom: 8rem;
 }
-.main div img {
+.main section img {
   display: inline-block;
   margin: 8rem 0 -6rem 0;
   width: 100%;
-  opacity: .7;
   transition: .5s;
 }
-.main div img:hover {
-  opacity: 1;
+.main section p span{
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700 !important;
+}
+.main section p{
+  position: absolute;
+  margin-top: 6rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 0.9rem;
+  transition: .5s;
+}
+.main section p:hover{
+  font-weight: 700;
+  font-style: normal;
+}
+.main section p a{
+  color: #272727 !important;
+  text-decoration: none;
 }
 
 }
@@ -104,24 +113,16 @@ body{
 }
 .main{
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   right: 3rem;
   width: 75vw;
-  column-count: 2;
+  column-count: 1;
   column-gap: 2rem;
 }
-.main div{
-  position: relative;
-}
-.main div img {
+.main section img {
   display: inline-block;
-  margin: 0 0 2rem;
-  width: 100%;
-  opacity: .7;
-  transition: .5s;
-}
-.main div img:hover {
-  opacity: 1;
+  margin: 0 0 2rem 15%;
+  width: 60%;
 }
 
 }
