@@ -28,7 +28,7 @@
     <nuxt-link to="./more/03"><img src="~/assets/img/03-min.png"></nuxt-link>
     </div>
     <div>
-    <nuxt-link to="/"><img src="~/assets/img/05-min.png"></nuxt-link>
+    <a href="https://mtbook1010.github.io/portfolio_2/" target="_blank"><nuxt-link to="/"><img src="~/assets/img/05-min.png"></nuxt-link></a>
     </div>
     </div>
   </body>
