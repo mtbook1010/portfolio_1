@@ -48,6 +48,7 @@ body{
   position: fixed;
   top: 4rem;
   right: 5vw;
+  text-align: right;
   margin: 0;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
