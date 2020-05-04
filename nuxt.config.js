@@ -5,17 +5,17 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'Shoma Yamamoto Portfolio',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { hid: 'description', name: 'description', content: '' },
       { hid: 'og:url', property: 'og:url', content: 'https://shomayamamoto.netlify.app/' },
-      { hid: 'og:title', property: 'og:title', content: this.title },
+      { hid: 'og:title', property: 'og:title', content: 'Shoma Yamamoto Portfolio' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:image', property: 'og:image', content: '~/assets/img/ogp-img.png' },
+      { hid: 'og:image', property: 'og:image', content: 'assets/img/ogp-img.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'Shoma Yamamoto Portfolio' },
       { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' }
