@@ -14,7 +14,7 @@ export default {
       { hid: 'og:title', property: 'og:title', content: 'Shoma Yamamoto Portfolio' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:description', property: 'og:description', content: '' },
-      { hid: 'og:image', property: 'og:image', content: '/ogp-img.png' },
+      { hid: 'og:image', property: 'og:image', content: 'https://shomayamamoto.netlify.app/ogp-img.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
       { hid: 'og:site_name', property: 'og:site_name', content: 'Shoma Yamamoto Portfolio' },
       { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' }
