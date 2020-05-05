@@ -1,7 +1,7 @@
 <template>
   <div class ="container">
     <head><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> </head>
-  <div class="flexbox">
+    <body>
   <section class="side">
     <img src = "../assets/img/Logo.svg" class = "logo">
     <div id="nav-drawer">
@@ -24,7 +24,7 @@
     <a href="https://www.facebook.com/YMMT.SUM" target="_blank" class="animsition-link"><h2 class="h2-f">Facebook</h2></a>
     <a href="https://dribbble.com/mt_book10" target="_blank" class="animsition-link"><h2 class="h2-d">Dribbble</h2></a>
   </section>
-  </div>
+  </body>
   </div>
 </template>
 

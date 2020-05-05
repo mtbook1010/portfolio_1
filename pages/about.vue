@@ -1,5 +1,5 @@
 <template>
-<div class ="container mCustomScrollbar">
+<div class ="container">
     <head>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Noto+Serif+JP:wght@200;600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
@@ -32,11 +32,6 @@ export default {
 </script>>
 
 <style scoped>
-
-body{
-  background: #f8f8f8 !important;
-  color: #272727;
-}
 
 @media screen and (max-width: 1023px) {
 
@@ -124,7 +119,7 @@ body{
 
 #side{
   position: fixed;
-  z-index: 999;
+  z-index: 9997;
 }
 .main_t{
   position: fixed;

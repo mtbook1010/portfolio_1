@@ -1,0 +1,10 @@
+.stalker {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  mix-blend-mode: normal;
+  z-index: 9999;
+  opacity: 1;
+}

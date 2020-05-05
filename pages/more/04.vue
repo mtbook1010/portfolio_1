@@ -1,5 +1,5 @@
 <template>
-<div class ="container mCustomScrollbar">
+<div class ="container">
     <head>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,700;1,400&family=Noto+Serif+JP:wght@200;600&display=swap" rel="stylesheet">
     </head>
