@@ -26,7 +26,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'mouse.css' }
+      { rel: 'stylesheet', href: 'mouse.css' },
+      { rel: 'stylesheet', href: 'fade.css' }
     ]
   },
   /*
