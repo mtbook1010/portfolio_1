@@ -173,7 +173,7 @@ export default {
 }
 .main #profile{
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 10%;
 }
 .main .myname{
