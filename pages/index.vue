@@ -9,31 +9,31 @@
     </div>
   <h1 class="main_t">WORKS</h1>
   <div class="main">
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/02"><img src="~/assets/img/02-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/08"><img src="~/assets/img/08-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/03"><img src="~/assets/img/03-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <a href="https://bizapp.robot.softbank.jp/shopdetail/000000000144/" target="_blank"><img src="~/assets/img/06-min.png"></a>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/09"><img src="~/assets/img/09-min.png"></nuxt-link>
     </div>
-    <div>
+    <div data-aos="fade-up">
     <a href="https://mtbook1010.github.io/portfolio_2/" target="_blank"><img src="~/assets/img/05-min.png"></a>
     </div>
     </div>
