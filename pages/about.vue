@@ -10,6 +10,7 @@
     </div>
   <h1 class="main_t">ABOUT</h1>
   <div class="main">
+    <div class = "gauguin">美には二つの種類がある。<br>一つは本能から生まれてくるもの、<br>もう一つは入念な研究の結果から生まれるもの。<br><span>- ゴーギャン</span></div>
     <div id="profile">
       <h1>PROFILE</h1>
       <span class = "myname">山本 匠真　<span>|</span>　Shoma Yamamoto</span><br>
@@ -48,14 +49,29 @@ export default {
 }
 .main{
   position: absolute;
-  top: 18vw;
+  top: 60vw;
   right: 3rem;
   width: 75vw;
-  height: 50vh;
+  height: 80vh;
+}
+.gauguin{
+  position: absolute;
+  top: 0rem;
+  left: 10%;
+  font-family: 'Noto Serif JP';
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.4rem;
+  line-height: 1.8rem;
+}
+.gauguin span{
+  font-weight: 200;
+  font-size: 1rem;
 }
 .main #profile{
   position: absolute;
-  top: 0rem;
+  top: 50%;
   left: 10%;
 }
 .main .myname{
@@ -85,6 +101,7 @@ export default {
 }
 .contact{
   display: block;
+  margin-bottom: 40vw;
 }
 .contact a{
   text-decoration: none;
@@ -137,11 +154,26 @@ export default {
   top: 18vw;
   right: 3rem;
   width: 75vw;
-  height: 50vh;
+  height: 80vh;
+}
+.gauguin{
+  position: absolute;
+  top: 0rem;
+  left: 10%;
+  font-family: 'Noto Serif JP';
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: 0.4rem;
+  line-height: 5rem;
+}
+.gauguin span{
+  font-weight: 200;
+  font-size: 1rem;
 }
 .main #profile{
   position: absolute;
-  top: 0rem;
+  top: 50%;
   left: 10%;
 }
 .main .myname{
@@ -170,6 +202,7 @@ export default {
 }
 .contact{
   display: block;
+  margin-bottom: 18vw;
 }
 #profile h1{
   margin: 3rem 0 1.5rem 0;
