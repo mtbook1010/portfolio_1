@@ -63,7 +63,7 @@ export default {
   font-weight: 600;
   text-align: left;
   letter-spacing: 0.4rem;
-  line-height: 1.8rem;
+  line-height: 2.5rem;
 }
 .gauguin span{
   font-weight: 200;
@@ -71,7 +71,7 @@ export default {
 }
 .main #profile{
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 10%;
 }
 .main .myname{
