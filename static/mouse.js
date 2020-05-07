@@ -2,11 +2,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
     const body = document.body;
     const stalker = document.createElement('div');
-    const btns = document.querySelectorAll('img , a');
-    const STALKER_SIZE = 20;
-    const STALHER_COLOR = 'rgba(255,255,255,.8)';
-    const SCALE_SIZE = 1.5;
-    const SCALE_DURATION = 1;
+    const btns = document.querySelectorAll('a');
+    const STALKER_SIZE = 30;
+    const STALHER_COLOR = 'rgba(30,30,30,.5)';
+    const SCALE_SIZE = 1;
+    const SCALE_DURATION = .5;
 
     ({
       init() {
