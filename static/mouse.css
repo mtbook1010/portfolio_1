@@ -1,4 +1,5 @@
-.stalker {
+@media screen and (min-width: 1024px) {
+  .stalker {
   position: absolute;
   top: 0;
   left: 0;
@@ -7,4 +8,11 @@
   mix-blend-mode: normal;
   z-index: 9999;
   opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .stalker{
+  display: none;
+  }
 }
