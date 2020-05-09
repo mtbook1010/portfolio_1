@@ -13,6 +13,6 @@
 
 @media screen and (max-width: 1023px) {
   .stalker{
-  display: none;
+  display: none !important;
   }
 }
