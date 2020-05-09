@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
-  if (!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/)) {
+  if (!navigator.userAgent.match(/(iPhone|iPad|iPod|Android)/i)) {
+  }else{
     const body = document.body;
     const stalker = document.createElement('div');
     const btns = document.querySelectorAll('a');
