@@ -25,7 +25,7 @@
     <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
-    <nuxt-link to="./more/03"><img src="~/assets/img/03-min.png"></nuxt-link>
+    <nuxt-link to="./more/10"><img src="~/assets/img/10-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
     <a href="https://bizapp.robot.softbank.jp/shopdetail/000000000144/" target="_blank"><img src="~/assets/img/06-min.png"></a>
