@@ -56,8 +56,9 @@ export default {
 }
 .gauguin{
   position: absolute;
-  top: 0rem;
-  left: 10%;
+	top: 50%;
+	left: 10%;
+	transform: translate(-50%, -50%);
   font-family: 'Noto Serif JP';
   font-size: 1rem;
   font-weight: 600;
