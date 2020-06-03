@@ -13,7 +13,7 @@
     <img src="~/assets/img/12-min.png">
     </section>
     <section>
-    <img src="~/assets/img/more-img/12-m-01-min.png">
+    <img src="~/assets/img/more-img/12-m-01.png">
     </section>
     </div>
   </body>
