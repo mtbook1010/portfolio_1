@@ -10,6 +10,9 @@
   <h1 class="main_t">WORKS</h1>
   <div class="main">
     <div data-aos="fade-up">
+    <nuxt-link to="./more/12"><img src="~/assets/img/12-min.png"></nuxt-link>
+    </div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
