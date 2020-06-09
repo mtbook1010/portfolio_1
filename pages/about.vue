@@ -10,14 +10,16 @@
     </div>
   <h1 class="main_t">ABOUT</h1>
   <div class="main">
-    <div class = "gauguin">美には二つの種類がある。<br>一つは本能から生まれてくるもの、<br>もう一つは入念な研究の結果から生まれるもの。<br><span>- ゴーギャン</span></div>
-    <div id="profile">
+    <div class = "gauguin"><p>美には二つの種類がある。<br>一つは本能から生まれてくるもの、<br>もう一つは入念な研究の結果から生まれるもの。<br><span>- ゴーギャン</span></p></div>
+  <div id="profile">
+    <section>
       <h1>PROFILE</h1>
       <span class = "myname">山本 匠真　<span>|</span>　Shoma Yamamoto</span><br>
       <span class = "myprofile">北海道生まれ東京育ち<br>企業やサービスなどのロゴデザイン・WEBデザインを主としてWordPressサイト・オリジナルサイトなども制作している。</span>
       <div class="contact">
         <a href="mailto:mt_book@outlook.jp"><h2><span>></span> CONTACT</h2></a>
       </div>
+    </section>
   </div>
   </div>
   </body>
@@ -48,17 +50,21 @@ export default {
   letter-spacing: 0.5rem;
 }
 .main{
-  position: absolute;
-  top: 60vw;
+  position: relative;
   right: 3rem;
-  width: 75vw;
-  height: 80vh;
+  width: 100vw;
 }
 .gauguin{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.gauguin p{
   position: absolute;
-	top: 50%;
-	left: 10%;
-	transform: translate(-50%, -50%);
+  width: 60%;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%) translateX(-50%);
   font-family: 'Noto Serif JP';
   font-size: 1rem;
   font-weight: 600;
@@ -71,10 +77,20 @@ export default {
   font-size: 1rem;
 }
 .main #profile{
-  position: absolute;
-  top: 80%;
-  left: 10%;
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
 }
+
+.main #profile section {
+  position: absolute;
+  width: 60%;
+  top: 50%;
+  left: 60%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 .main .myname{
   display: block;
   width: auto;
@@ -90,7 +106,7 @@ export default {
 }
 .main .myprofile{
   display: block;
-  width: 60vw;
+  width: 100%;
   max-width: 380px;
   margin-left: 5%;
   line-height: 2;
@@ -101,8 +117,9 @@ export default {
   letter-spacing: 0.2rem;
 }
 .contact{
-  display: block;
-  margin-bottom: 40vw;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 0vw;
 }
 .contact a{
   text-decoration: none;
