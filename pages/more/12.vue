@@ -15,6 +15,9 @@
     <section>
     <img src="~/assets/img/more-img/12-m-01.png">
     </section>
+    <section class="iframe-m">
+      <a href="https://xd.adobe.com/view/f03b519b-6c14-4318-41c5-ef81e5055262-860a/?fullscreen" target="_blank">https://xd.adobe.com/view/f03b519b-6c14-4318-41c5-ef81e5055262-860a/?fullscreen</a>
+    </section>
     </div>
   </body>
 </div>
@@ -59,6 +62,7 @@ body{
   width: 75vw;
   margin-bottom: 8rem;
 }
+
 .main section img {
   display: inline-block;
   margin: 8rem 0 -6rem 0;
@@ -85,6 +89,13 @@ body{
 .main section p a{
   color: #272727 !important;
   text-decoration: none;
+}
+
+.iframe-m a{
+  display: inline-block;
+  margin: 8rem 0 3rem 0;
+  width: 100%;
+  color: #272727;
 }
 
 }
@@ -116,6 +127,14 @@ body{
   display: inline-block;
   margin: 0 0 2rem 15%;
   width: 60%;
+}
+
+.iframe-m a{
+  display: inline-block;
+  margin: auto;
+  margin: 0 0 2rem 15%;
+  width: 60%;
+  color: #272727;
 }
 
 }
