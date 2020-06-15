@@ -28,6 +28,9 @@
     <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
+    <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
+    </div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
