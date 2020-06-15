@@ -13,6 +13,9 @@
     <nuxt-link to="./more/12"><img src="~/assets/img/12-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
+    <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
+    </div>
+    <div data-aos="fade-up">
     <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
@@ -28,7 +31,7 @@
     <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
-    <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
+    <nuxt-link to="./more/14"><img src="~/assets/img/14-min.png"></nuxt-link>
     </div>
     <div data-aos="fade-up">
     <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
@@ -118,6 +121,8 @@ export default {
   right: 3rem;
   width: 75vw;
   column-count: 2;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
   column-gap: 2rem;
 }
 .main div{
@@ -125,10 +130,13 @@ export default {
 }
 .main div img {
   display: inline-block;
-  margin: 0 0 2rem;
   width: 100%;
+  margin-bottom: 2rem;
   opacity: .7;
   transition: .5s;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
 .main div img:hover {
   opacity: 1;
