@@ -9,20 +9,48 @@
     </div>
   <h1 class="main_t">WORKS</h1>
   <div class="main">
+    <div>
     <nuxt-link to="./more/12"><img src="~/assets/img/12-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/02"><img src="~/assets/img/02-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/11"><img src="~/assets/img/11-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/08"><img src="~/assets/img/08-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/04"><img src="~/assets/img/04-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/15"><img src="~/assets/img/15-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/14"><img src="~/assets/img/14-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/07"><img src="~/assets/img/07-min.png"></nuxt-link>
+    </div>
+    <div>
     <a href="https://prock.netlify.app" target="_blank"><img src="~/assets/img/10-min.png"></a>
+    </div>
+    <div>
     <a href="https://bizapp.robot.softbank.jp/shopdetail/000000000144/" target="_blank"><img src="~/assets/img/06-min.png"></a>
+    </div>
+    <div>
     <nuxt-link to="./more/09"><img src="~/assets/img/09-min.png"></nuxt-link>
+    </div>
+    <div>
     <a href="https://mtbook1010.github.io/portfolio_2/" target="_blank"><img src="~/assets/img/05-min.png"></a>
+    </div>
     </div>
   </body>
 </div>
