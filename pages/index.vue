@@ -120,7 +120,8 @@ export default {
 }
 .main{
   position: absolute;
-  top: 12rem;
+  margin-top: 2rem;
+  top: 10rem;
   right: 3rem;
   width: 75vw;
   column-count: 2;
