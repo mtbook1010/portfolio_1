@@ -16,6 +16,9 @@
     <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
     </div>
     <div>
+    <nuxt-link to="./more/16"><img src="~/assets/img/16-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/01"><img src="~/assets/img/01-min.png"></nuxt-link>
     </div>
     <div>
@@ -131,13 +134,17 @@ export default {
 }
 .main div{
   position: relative;
+  margin-bottom: 2rem;
+}
+.main div a{
+  display: inline-block;
 }
 .main div img {
   display: inline-block;
   width: 100%;
-  margin-bottom: 2rem;
-  opacity: .7;
+  height: auto;
   transition: .5s;
+  opacity: 0.7;
   -webkit-column-break-inside: avoid;
   page-break-inside: avoid;
   break-inside: avoid;

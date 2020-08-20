@@ -22,7 +22,10 @@ export default {
     script: [
       { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js' },
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js' },
-      { src: 'mouse.js' }
+      { src: 'mouse.js' },
+      { src: 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js' },
+      { src: 'easing.js' },
+      { src: 'jquery.inview.min.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
