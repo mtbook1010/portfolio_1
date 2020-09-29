@@ -124,6 +124,7 @@ export default {
 .main{
   position: absolute;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   top: 10rem;
   right: 3rem;
   width: 75vw;
