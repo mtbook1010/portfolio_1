@@ -13,6 +13,9 @@
     <nuxt-link to="./more/12"><img src="~/assets/img/12-min.png"></nuxt-link>
     </div>
     <div>
+    <nuxt-link to="./more/17"><img src="~/assets/img/17-min.png"></nuxt-link>
+    </div>
+    <div>
     <nuxt-link to="./more/13"><img src="~/assets/img/13-min.png"></nuxt-link>
     </div>
     <div>
