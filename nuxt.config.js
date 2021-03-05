@@ -1,7 +1,6 @@
 
 export default {
-  target: 'static',
-  mode: 'universal',
+  target: 'static'
   /*
   ** Headers of the page
   */
