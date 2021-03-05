@@ -52,9 +52,6 @@
     <a href="https://bizapp.robot.softbank.jp/shopdetail/000000000144/" target="_blank"><img src="~/assets/img/06-min.png"></a>
     </div>
     <div>
-    <nuxt-link to="./more/09"><img src="~/assets/img/09-min.png"></nuxt-link>
-    </div>
-    <div>
     <a href="https://mtbook1010.github.io/portfolio_2/" target="_blank"><img src="~/assets/img/05-min.png"></a>
     </div>
     </div>
