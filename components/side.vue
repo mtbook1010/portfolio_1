@@ -20,8 +20,8 @@
     <h1><nuxt-link to="/">WORKS</nuxt-link></h1>
     <h1><nuxt-link to="/about">ABOUT</nuxt-link></h1>
     <div class = "border_v"></div>
-    <a href="https://twitter.com/mt_book10" target="_blank" class="animsition-link"><h2 class="h2-t">Twitter</h2></a>
-    <a href="https://www.facebook.com/YMMT.SUM" target="_blank" class="animsition-link"><h2 class="h2-f">Facebook</h2></a>
+    <a href="" target="_blank" class="animsition-link"><h2 class="h2-t">Twitter</h2></a>
+    <a href="" target="_blank" class="animsition-link"><h2 class="h2-f">Facebook</h2></a>
     <a href="https://dribbble.com/mt_book10" target="_blank" class="animsition-link"><h2 class="h2-d">Dribbble</h2></a>
   </section>
   </body>
